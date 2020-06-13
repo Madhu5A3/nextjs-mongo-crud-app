@@ -6,6 +6,9 @@
     max-width: 1200px;
     padding: 0 16px;
     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
 }
 
 .navbar {
@@ -29,4 +32,15 @@
 
 .navbarbrand:hover, .create:hover {
     color: #fff;
+}
+
+.formcontainer {
+    width: 400px;
+    margin: 20px auto;
+
+}
+
+.notecontainer {
+    text-align: center;
+    margin-top: 20px;
 }
