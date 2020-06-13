@@ -18,7 +18,7 @@ const Note = ({ note }) => {
     const deleteNote = async () => {
         const noteId = router.query.id;
         try {   
-            const deleted = await fetch(`http://localhost:3000/api/notes/${noteId}`, {
+            const deleted = await fetch(`/api/notes/${noteId}`, {
                 method: 'DELETE',
             });
             router.push('/');
