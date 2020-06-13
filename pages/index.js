@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 import { Button, Card } from 'semantic-ui-react';
-import style from '../css/style.module.css';
+import style from '../components/css/style.module.css';
 
 const Index = ({ notes }) => {
   return (
