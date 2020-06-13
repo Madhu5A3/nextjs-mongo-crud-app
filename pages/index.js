@@ -5,7 +5,7 @@ import style from '../css/style.module.css';
 
 const Index = ({ notes }) => {
   return (
-    <div className="notes-container">
+    <div className={style.notecontainer}>
       <h1 className={style.header}>Notes</h1>
       <div className={style.wrapper}>
         {notes.map((note) => {
